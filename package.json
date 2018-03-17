@@ -1,0 +1,40 @@
+{
+  "name": "react-system",
+  "version": "1.0.0",
+  "description": "基于redux antd创建的管理系统",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mock": "node ./init/createFangMock.js && node ./init/createOwnerMock.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.3",
+    "babel-plugin-import": "^1.6.5",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.10",
+    "less": "^2.3.1",
+    "less-loader": "^4.0.6",
+    "mockjs": "^1.0.1-beta3",
+    "style-loader": "^0.20.2",
+    "webpack": "^3.10.0"
+  },
+  "dependencies": {
+    "antd": "^3.2.3",
+    "classnames": "^2.2.5",
+    "dva": "^2.1.0",
+    "express": "^4.16.2",
+    "formidable": "^1.1.1",
+    "gm": "^1.23.1",
+    "mongoose": "^4.13.11",
+    "ramda": "^0.25.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "redux-logger": "^3.0.6"
+  }
+}

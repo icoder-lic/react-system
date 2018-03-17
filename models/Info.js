@@ -1,0 +1,33 @@
+var mongoose = require("mongoose");
+
+module.exports = mongoose.model("Info", {
+	"id": Number,
+	"province": String,
+	"city": String,
+	"area": String,
+	"region": String,
+	"title": String,
+	"floor": Number,
+	"totalFloor": Number,
+	"elevator": String,
+	"price": Number,
+	"room": Number,
+	"hall": Number,
+	"toilet": Number,
+	"sq": Number,
+	"direction": String,
+	"decoration": String,
+	"buydate": Number,
+	"builddate": Number,
+	"saledate": Number,
+	"build": Number,
+	"unit": Number,
+	"door": Number,
+	"type": String,
+	"property": String,
+	"images": Object,
+	"description": String,
+	"images": Object,
+	"avatar": String,
+	"files": Array
+});
