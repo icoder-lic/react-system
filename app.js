@@ -29,6 +29,7 @@ app.post("/addinfo", infoCtrl.addinfo);
 
 //静态
 app.use(express.static("www"));
+
 //监听
 app.listen(8080);
 console.log("项目运行在8080端口");
